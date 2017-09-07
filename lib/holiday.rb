@@ -60,8 +60,9 @@ def all_supplies_in_holidays(holiday_hash)
   #   Fourth Of July: Fireworks, BBQ
   # etc.
   holiday_hash.each do |season, holiday|
+    holi_array = []
     puts season.to_s.caplitalize!
-    holiday.split("_")
+    holiday.split!("_")
   end
 end
 
