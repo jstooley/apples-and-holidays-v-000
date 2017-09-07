@@ -68,7 +68,7 @@ def all_supplies_in_holidays(holiday_hash)
 
 
     end
-    puts "  #{holi_array.join(" ")}: #{stuff.values}"
+    #puts "  #{holi_array.join(" ")}: #{stuff.values}"
   end
 end
 
