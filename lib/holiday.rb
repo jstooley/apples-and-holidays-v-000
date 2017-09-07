@@ -84,6 +84,7 @@ def all_holidays_with_bbq(holiday_hash)
     holiday.each do |holiday_two, stuff|
       stuff.each do |word|
         if word == "BBQ"
+          bbq_holiday = holiday_two
         end
       end
     end
